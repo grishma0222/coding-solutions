@@ -6,7 +6,20 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0)
+		{
+		    int n=sc.nextInt();
+		    int m=sc.nextInt();
+		    while(m!=0)
+		    {
+		        int temp=m;
+		        m=n%m;
+		        n=temp;
+		    }
+		    System.out.println(n);
+		}
 
 	}
 }
