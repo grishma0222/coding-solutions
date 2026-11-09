@@ -13,12 +13,13 @@ class Codechef
 		int start=0,maxstart=0;
 		for(int i=0;i<n;i++)
 		{
-		    if(st.charAt(i)=='m') c++;
+		    if(st.charAt(i)=='m'){ c++;
 		    if(c>max)
 		    {
 		        max=c;
 		        maxstart=start;
 		    }
+		}
 		else{
 		    c=0;
 		    start=i+1;
