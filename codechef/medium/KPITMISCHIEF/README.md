@@ -82,7 +82,7 @@ The only group is the single student at index $3$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:51:23.084Z  
+**Submitted:** 2026-11-09T15:53:16.781Z  
 
 ```java
 import java.util.*;
