@@ -60,7 +60,7 @@ If Chef went to both stores, the cost would be $\ge 200$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:13:08.342Z  
+**Submitted:** 2026-11-11T15:17:15.138Z  
 
 ```java
 import java.util.*;
@@ -91,9 +91,9 @@ class Codechef
 	    for(int i=0;i<n;i++){
 	        sum1 +=a[i];
 	        sum2 +=b[i];
-	        summin=Math.min(sum1,sum2);
+	        summin+=Math.min(a[i],b[i]);
 	    }
-	    int ans=Math.min(d+sum1,Math,min(d+sum2,2*d+summin));
+	    int ans=Math.min(d+sum1,Math.min(d+sum2,2*d+summin));
 	    System.out.println(ans);
 	}
 
