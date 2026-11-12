@@ -44,9 +44,9 @@ No sequence of rotations of `s` can produce `"abced"`. The characters appear in 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 41.9 MB  
-**Submitted:** 2026-11-12T16:11:09.746Z  
+**Runtime:** 3 ms (beats 9.41%)  
+**Memory:** 42.6 MB (beats 98.74%)  
+**Submitted:** 2026-11-12T16:11:04.875Z  
 
 ```java
 class Solution {
